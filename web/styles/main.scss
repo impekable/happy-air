@@ -1,0 +1,86 @@
+$color: rgba(0, 51, 153, 0.2);
+$red: #e12127;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'arial'
+}
+body {
+  background-color: $color;
+  color: #555;
+}
+
+.airlineBody {
+  height: calc(100vh - 80px);
+}
+
+.navbar {
+  background-color: #003399;
+  height: 80px;
+  padding: 0 30px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navSidebar{
+  height: 100%;
+  width: 5%;
+  float: left;
+  background-color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.overbookedModalTitle{
+  color: $red !important;
+}
+
+.overbookedModalContent{
+  text-align: center !important;
+}
+
+.seatsNeeded{
+  color: #fff;
+  background-color: $red;
+  padding: 10px 20px;
+  margin: 20px 0 20px 0;
+  display: inline-block;
+}
+
+.overbookedModalButtonsContainer{
+  text-align: center !important;
+}
+
+.overbookedModalCancelButton {
+  margin-right: 20px !important;
+  height: 42px !important;
+  min-width: 40% !important;
+}
+.overbookedModalYesButton {
+  color: #fff !important;
+  height: 42px !important;
+  min-width: 40% !important;
+  margin-bottom: 20px !important;
+}
+
+.overbookedModalYesButton > span {
+  font-weight: 300 !important;
+  letter-spacing: 1px !important;
+}
+
+.drawerContainer {
+  background-color: #f3f3f3 !important;
+}
+
+.voucherSent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+}

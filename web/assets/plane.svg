@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="795" height="740" viewBox="0 0 795 740">
+    <defs>
+        <path id="a" d="M0 0h798v740H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-3)">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <g mask="url(#b)">
+            <path fill="#FFF" d="M535 536l360 274H535zM271 536L-89 810h360zM403-478l132 648H271z" opacity=".3"/>
+            <path fill="#FFF" d="M271.06 184c-.04-1.328-.06-2.662-.06-4 0-72.902 59.098-132 132-132s132 59.098 132 132c0 1.338-.02 2.672-.06 4h.06v556H271V184h.06z"/>
+        </g>
+        <g fill="#D9D9D9" mask="url(#b)">
+            <path d="M287 158h40v32h-40zM343 158h40v32h-40zM423 158h40v32h-40zM479 158h40v32h-40zM287 206h40v32h-40zM343 206h40v32h-40zM423 206h40v32h-40zM479 206h40v32h-40zM287 255h40v32h-40zM343 255h40v32h-40zM423 255h40v32h-40zM479 255h40v32h-40zM287 302h40v32h-40zM343 302h40v32h-40zM423 302h40v32h-40zM479 302h40v32h-40zM287 350h40v32h-40zM343 350h40v32h-40zM423 350h40v32h-40zM479 350h40v32h-40zM287 398h40v32h-40zM343 398h40v32h-40zM423 398h40v32h-40zM479 398h40v32h-40zM287 446h40v32h-40zM343 446h40v32h-40zM423 446h40v32h-40zM479 446h40v32h-40zM287 494h40v32h-40zM287 541h40v32h-40zM343 494h40v32h-40zM343 541h40v32h-40zM423 494h40v32h-40zM423 541h40v32h-40zM479 494h40v32h-40zM479 541h40v32h-40zM287 588h40v32h-40zM343 588h40v32h-40zM423 588h40v32h-40zM479 588h40v32h-40zM287 635h40v32h-40zM343 635h40v32h-40zM423 635h40v32h-40zM479 635h40v32h-40zM287 682h40v32h-40zM343 682h40v32h-40zM423 682h40v32h-40zM479 682h40v32h-40z"/>
+        </g>
+    </g>
+</svg>

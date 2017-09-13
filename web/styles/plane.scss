@@ -1,0 +1,147 @@
+
+.happyAirBackground {
+  height: 100%;
+  width: 95%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+.happyAirPlane {
+  height: 100%;
+  width: auto;
+}
+
+.seater {
+  fill: #edb72b;
+}
+
+.seat-full {
+  fill: '#1825c5'
+}
+.background {
+  width: calc(100vw);
+	background-color: #ccd5e6;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: calc(100vh - 80px);
+  overflow: hidden;
+
+
+    .plane-tip {
+      width: 20%;
+      height: 0;
+      border-bottom: 30vh solid rgba(255, 255, 255, 0.50);
+      border-left: 2vw solid transparent;
+      border-right: 2vw solid transparent;
+      position: absolute;
+      top: 0;
+    }
+
+
+    .plane-body {
+      width: 20%;
+      height: 94%;
+      border-top-left-radius: 300px;
+      border-top-right-radius: 300px;
+      background-color: #fff;
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+    }
+
+  .wing {
+    width: 10%;
+    height: 0;
+    padding-top: 10%;
+    overflow: hidden;
+    }
+
+  .wing2 {
+    width: 10%;
+    height: 0;
+    padding-bottom: 10%;
+    overflow: hidden;
+}
+.left-wing:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top:-500px;
+
+    border-top: 500px solid transparent;
+    border-right: 500px solid rgba(255, 255, 255, 0.50);
+}
+
+.right-wing:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-right: 500px solid transparent;
+  border-bottom: 500px solid rgba(255, 255, 255, 0.50);
+}
+
+.plane-name {
+  color: #000;
+  position: absolute;
+  left: 50%;
+  top: 16%;
+  transform: translateX(-50%);
+
+  .plane-info {
+    font-size: 90%;
+    color: #003399;
+    border: 2px solid #003399;
+    padding: 0px 6px;
+    margin-left: 6px;
+    border-radius: 50%;
+  }
+}
+
+.plane-seats {
+  margin-top: 40%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 12px;
+
+  ul {
+    height: 100%;
+  }
+}
+.seat {
+  background-color: #d9d9d9;
+  color: #d9d9d9;
+width: 18%;
+height: calc(100% / 18);
+display: inline-block;
+margin: 2%;
+}
+
+.move-right + li {
+  margin-right: 14%;
+}
+
+.seat-row {
+  display: flex;
+flex-direction: row;
+flex: 1;
+}
+
+}
+.seat-lane {
+  display: flex;
+  flex: 2;
+}
+
+.seat-lane:first-child {
+  margin-right: 10px;
+}
+.seat-lane:last-child {
+  margin-left: 10px;
+}

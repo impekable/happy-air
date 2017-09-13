@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="41px" viewBox="0 0 43 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>airplane</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.00-Normal-Flight" transform="translate(-20.000000, -179.000000)">
+            <g id="Window" transform="translate(0.000000, 80.000000)">
+                <g id="[O]/Sidebar">
+                    <g id="plane" transform="translate(0.000000, 80.000000)">
+                        <g id="airplane" transform="translate(20.000000, 19.000000)">
+                            <path d="M21.2703655,1.30295944 C21.0772764,1.07735944 20.7962025,0.94735944 20.5,0.94735944 C20.2037975,0.94735944 19.9223254,1.07735944 19.7292364,1.30295944 C18.6535116,2.56135944 18.0619028,4.16495944 18.0619028,5.82375944 L18.0619028,14.8249594 L1,28.2941594 L1,32.3757594 L18.0623009,25.8453594 L18.0623009,31.9677594 C18.0623009,32.5373594 18.2020416,33.0981594 18.4687832,33.6005594 L12.3751327,37.6821594 L12.3751327,40.9473594 L20.5,37.6821594 L28.6248673,40.9473594 L28.6248673,37.6821594 L22.5312168,33.6005594 C22.7979584,33.0981594 22.9376991,32.5373594 22.9376991,31.9677594 L22.9376991,25.8453594 L40,32.3757594 L40,28.2941594 L22.9376991,14.8249594 L22.9376991,5.82375944 C22.9376991,4.16495944 22.3460902,2.56135944 21.2703655,1.30295944" fill="#003399" transform="translate(20.500000, 21.000000) rotate(90.000000) translate(-20.500000, -21.000000) "></path>
+                            <circle id="Oval-174" fill="#E12127" cx="37" cy="6" r="6"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
